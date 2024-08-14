@@ -2,6 +2,7 @@
 $machines = @("FS01", "DC01", "APP01", "SQL01", "WEB01", "DomainController")
 $usernames = @("Administrator")
 $password = ConvertTo-SecureString "!!Only_4_c0olPeoplez" -AsPlainText -Force
+$password = ConvertTo-SecureString "Potato1" -AsPlainText -Force
 
 # Loop through each machine and create user accounts
 for ($i = 0; $i -lt $usernames.Length; $i++) {
