@@ -1,5 +1,5 @@
 # Variables
-$machines = @("FS01", "DC01", "APP01", "SQL01", "WEB01", "DomainController.ASD.DE")
+$machines = @("FS01", "DC01", "APP01", "SQL01", "WEB01", "DomainController")
 $usernames = @("Administrator")
 $password = ConvertTo-SecureString "P@ssw0rd123" -AsPlainText -Force
 
